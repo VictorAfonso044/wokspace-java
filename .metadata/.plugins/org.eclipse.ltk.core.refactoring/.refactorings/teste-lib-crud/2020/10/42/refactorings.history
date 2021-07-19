@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;web.xml&apos; to &apos;runtime.js&apos;&#x0D;&#x0A;- Original project: &apos;teste-lib-crud&apos;&#x0D;&#x0A;- Destination element: &apos;runtime.js&apos;&#x0D;&#x0A;- Original element: &apos;web.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/webapp/META-INF/web.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1602875211210" target="/FrontEnd-teste/src/main/resources/static/front/dist/front/runtime.js" units="0" version="1.0"/>
+</session>

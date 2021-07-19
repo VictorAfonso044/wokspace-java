@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.7.1.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3040774598.index
+\Strurs\src

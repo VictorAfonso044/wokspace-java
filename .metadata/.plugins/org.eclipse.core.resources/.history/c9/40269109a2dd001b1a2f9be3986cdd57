@@ -1,0 +1,5 @@
+package com.framework.victorafonso.config;
+
+public class ElasticSearchConfig {
+
+}

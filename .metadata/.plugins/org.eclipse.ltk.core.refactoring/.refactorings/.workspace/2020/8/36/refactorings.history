@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Crud angularjs&apos; to &apos;Crud-angularjs-Front&apos;&#x0D;&#x0A;- Original element: &apos;Crud angularjs&apos;&#x0D;&#x0A;- Renamed element: &apos;Crud angularjs&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Crud angularjs&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Crud angularjs" name="Crud-angularjs-Front" references="true" stamp="1598889769542" version="1.0"/>
+</session>

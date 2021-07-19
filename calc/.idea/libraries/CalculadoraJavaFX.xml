@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CalculadoraJavaFX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CalculadoraJavaFX.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

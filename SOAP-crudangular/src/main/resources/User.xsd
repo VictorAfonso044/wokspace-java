@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/User" 
+xmlns:tns="http://www.example.org/User" elementFormDefault="qualified">
+
+<element name="getUserRequest">
+	<complexType>
+		<sequence>
+		    <element name="nomebeneficiario" type="string"/>
+		   <element name="idbeneficiario" type="long"/>
+		   <element name="idprontuario" type="int"/>
+		   <element name="numcarteira" type="int"/>
+		   <element name="datanascimento" type="date"/>
+		   <element name="datainclusao" type="date"/>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="getUserResponse">
+	<complexType>
+		<sequence>
+		   <element name="user" type="tns:user"/>
+		</sequence>
+	</complexType>
+</element>
+	
+	<complexType name="user">
+		<sequence>
+		   <element name="nomebeneficiario" type="string"/>
+		   <element name="idbeneficiario" type="long"/>
+		   <element name="idprontuario" type="int"/>
+		   <element name="numcarteira" type="int"/>
+		   <element name="datanascimento" type="date"/>
+		   <element name="datainclusao" type="date"/>
+		</sequence>
+	</complexType>
+	
+</schema>

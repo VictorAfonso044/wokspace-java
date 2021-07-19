@@ -1,0 +1,26 @@
+package com.example.teste.ejbremote;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+	public class HomePoint {
+	 
+	    
+	    HelloStatelessWorldBean helloStatelessWorld = new HelloStatelessWorldBean() ;
+	    
+	    HelloStatefulWorldBean  helloStatefulWorld = new HelloStatefulWorldBean(); 
+	 
+	    @GetMapping("/stateless")
+	    public String getStateless() {
+	        return helloStatelessWorld.getHelloWorld();
+	    }
+	    
+	    @GetMapping("/stateful")
+	    public String getStateful() {
+	        return helloStatefulWorld.getHelloWorld()
+	          + " called " + helloStatefulWorld.howManyTimes() + " times";
+	    }
+	}
+

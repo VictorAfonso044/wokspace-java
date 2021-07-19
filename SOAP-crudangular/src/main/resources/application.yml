@@ -1,0 +1,8 @@
+cxf:
+ path: /ws
+ jaxrs:
+   component-scan: true
+   classes-scan-packages: com.example.teste
+ server:
+  servlet:
+   contextPath: /soap
